@@ -3,7 +3,8 @@ This repo contains code to crawl for articles from the BBC, cleanse them, store 
 
 The purpose is to fulfill a coding challenge. Some of the used frameworks are requests, Beautifulsoup.
 
-The file contains the API and some code applying it. Several functions provides some abstraction and allows for re-use as below:
+## Re-usable functions
+The file contains an API and some code applying it. Several functions provide some abstraction and allows for re-use as below:
 
 1. give_links(url, parent): 
 Takes a url, and its parent address and returns a list of absolute addresses of web links orginitating from it.
